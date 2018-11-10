@@ -31,7 +31,7 @@ public class Queen extends Chesspiece {
         if(slovo == slovo_p && broj == broj_p){
             throw new IllegalChessMoveException("Ilegalan potez");
         }
-        if(slovo == slovo_p || broj == broj_p || Math.abs(slovo - slovo_p ) == Math.abs(broj - broj_p)){
+        if(slovo == slovo_p || broj == broj_p || slovo - slovo_p == broj - broj_p){
             pozicija = position;
         }
         else {
