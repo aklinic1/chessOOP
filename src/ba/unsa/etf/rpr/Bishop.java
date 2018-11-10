@@ -1,6 +1,6 @@
 package ba.unsa.etf.rpr;
 
-public class Bishop extends Chesspiece {
+public class Bishop extends ChessPiece {
 
     public Bishop(Color boja, String pozicija)throws IllegalChessMoveException{
         super(boja,pozicija);

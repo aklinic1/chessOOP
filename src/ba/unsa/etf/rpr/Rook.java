@@ -1,6 +1,6 @@
 package ba.unsa.etf.rpr;
 
-public class Rook extends Chesspiece{
+public class Rook extends ChessPiece{
 
     public Rook(Color boja, String pozicija) throws IllegalChessMoveException{
         super(boja,pozicija);

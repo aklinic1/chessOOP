@@ -1,6 +1,6 @@
 package ba.unsa.etf.rpr;
 
-public class Queen extends Chesspiece {
+public class Queen extends ChessPiece {
 
     public Queen(Color boja, String pozicija) throws IllegalChessMoveException{
         super(boja,pozicija);

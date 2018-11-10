@@ -1,12 +1,12 @@
 package ba.unsa.etf.rpr;
 
 
-public abstract class Chesspiece {
+public abstract class ChessPiece {
     public enum Color {BLACK, WHITE};
     protected Color boja;
     protected String pozicija;
 
-    public Chesspiece(Color boja, String pozicija) throws IllegalChessMoveException{
+    public ChessPiece(Color boja, String pozicija) throws IllegalChessMoveException{
         this.boja = boja;
         this.pozicija = pozicija;
     };

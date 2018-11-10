@@ -1,6 +1,6 @@
 package ba.unsa.etf.rpr;
 
-public class Pawn extends Chesspiece {
+public class Pawn extends ChessPiece {
 
     public Pawn(Color boja, String pozicija) throws IllegalChessMoveException{
         super(boja,pozicija);
