@@ -16,6 +16,8 @@ public class Queen extends Chesspiece {
     public Color getColor() {
         return boja;
     }
+
+    @Override
     public void move(String position) throws IllegalChessMoveException{
         char slovo = position.charAt(0);
         int broj = position.charAt(1) - '0';
