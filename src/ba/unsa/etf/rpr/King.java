@@ -40,7 +40,6 @@ public class King extends Chesspiece{
         else{
             throw new IllegalChessMoveException("Ilegalan potez");
         }
-        pozicija = position;
     }
 
 
