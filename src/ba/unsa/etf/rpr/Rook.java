@@ -26,6 +26,10 @@ public class Rook extends Chesspiece{
         char slovo_p = pozicija.charAt(0);
         int broj_p = pozicija.charAt(1) - '0';
 
+        if(slovo == slovo_p && broj == broj_p){
+            throw new IllegalChessMoveException("Ilegalan potez");
+        }
+
         if (slovo == slovo_p || broj == broj_p){
             pozicija = position;
         }
