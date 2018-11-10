@@ -29,7 +29,7 @@ public class Bishop extends Chesspiece {
         if(slovo == slovo_p && broj == broj_p){
             throw new IllegalChessMoveException("Ilegalan potez");
         }
-        
+
         if(broj_p - broj == slovo_p - slovo){
             pozicija = position;
         }
